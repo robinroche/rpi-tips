@@ -152,7 +152,7 @@ The following describes how to use the GPIO pins with a one-wire temperature sen
 * Two lines should appear; the last part of the second line contains the measured temperature (divide by 1000 to get the actual temperature).
 
 
-You can also check Adafruit's [tutorial](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/overview) on the same topic. As explained on [http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/temperature/ this webpage], the temperature can then be read using Python scripts.
+You can also check Adafruit's [tutorial](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/overview) on the same topic. As explained on [this webpage](http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/temperature/), the temperature can then be read using Python scripts.
 
 
 The GPIO drivers are not loaded at boot, by default. This means that you will need to run the <code>modprobe</code> commands each time. To avoid that, use the following procedure [[source](http://raspberrypi.znix.com/hipidocs/topic_load_drivers_startup.htm)]:
@@ -211,8 +211,8 @@ Interface with LabView: [blog post](http://etchingpathways.blogspot.fr/2013/09/l
 
 
 
-== RPi Programming ==
+### RPi Programming
 
 * Using Java on the RPi: [instructions from Oracle](http://www.oracle.com/technetwork/articles/java/raspberrypi-1704896.html) and [forum](http://www.raspberrypi.org/forums/viewforum.php?f=81).
 * Installing Oracle's JAVA 7 JDK: <code>sudo apt-get install oracle-java7-jdk</code>
-* Download and unzip [http://jade.tilab.com/ JADE], check whether it works using: <code>java -cp lib\jade.jar jade.Boot -gui</code>
+* To run JADE: Download and unzip [http://jade.tilab.com/ JADE], check whether it works using: <code>java -cp lib\jade.jar jade.Boot -gui</code>
