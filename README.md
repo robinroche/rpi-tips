@@ -30,6 +30,7 @@ Some basic commands:
 * <code>date -s "Thu Aug  9 21:31:26 UTC 2012"</code>: manually sets the date to a specific value (input the UTC time)
 * <code>sudo passwd root</code>: changes the root password
 * <code>sudo -s</code>: access console as root
+* <code>df -h</code>: get data on available space on disks
 
 Learn more about Linux basics [here](http://raspberrywebserver.com/linux-basics/).
 
